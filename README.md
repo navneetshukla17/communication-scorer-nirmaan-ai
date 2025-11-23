@@ -1,4 +1,4 @@
-# AI Communication Skills Scorer
+# 🎤 AI Communication Skills Scorer
 
 **Nirmaan AI Intern Case Study Submission**
 
@@ -6,9 +6,16 @@ An AI-powered tool that analyzes and scores students' self-introduction transcri
 
 ---
 
+## 🚀 Live Demo
+
+**Try it now:** [https://navneet-shukla-communication-scorer-nirmaan-ai.streamlit.app/](https://navneet-shukla-communication-scorer-nirmaan-ai.streamlit.app/)
+
+---
+
 ## 📋 Table of Contents
 
 - [Overview](#overview)
+- [Live Demo](#live-demo)
 - [Features](#features)
 - [Technology Stack](#technology-stack)
 - [Installation & Setup](#installation--setup)
@@ -19,6 +26,7 @@ An AI-powered tool that analyzes and scores students' self-introduction transcri
 - [Sample Output](#sample-output)
 - [Deployment](#deployment)
 - [Design Decisions](#design-decisions)
+- [Author](#author)
 
 ---
 
@@ -92,8 +100,8 @@ This tool evaluates student self-introductions across 5 key criteria:
 ### Step 1: Clone the Repository
 
 ```bash
-git clone https://github.com/yourusername/communication-scorer.git
-cd communication-scorer
+git clone https://github.com/navneetshukla17/communication-scorer-nirmaan-ai.git
+cd communication-scorer-nirmaan-ai
 ```
 
 ### Step 2: Create Virtual Environment
@@ -464,6 +472,10 @@ are 3 people in my family, me, my mother and my father...
 
 ## 🌐 Deployment
 
+### Live Demo (Already Deployed!)
+
+**🚀 Access the live app:** [https://navneet-shukla-communication-scorer-nirmaan-ai.streamlit.app/](https://navneet-shukla-communication-scorer-nirmaan-ai.streamlit.app/)
+
 ### Local Deployment (Recommended for Testing)
 
 ```bash
@@ -485,7 +497,10 @@ Access at: `http://localhost:8501`
    - Click "New app"
    - Connect your GitHub repository
    - Select `app.py` as main file
-   - Add secrets: `GROQ_API_KEY=your_key`
+   - Add secrets in TOML format:
+     ```toml
+     GROQ_API_KEY = "your_groq_api_key_here"
+     ```
    - Click "Deploy"
 
 3. **Your app will be live at:**
@@ -539,6 +554,7 @@ For AWS EC2, Azure, or GCP deployment:
 | Varying transcript lengths | Auto-estimate duration if not provided |
 | Semantic scoring threshold | Calibrated using provided sample |
 | API costs | Used free Groq tier, fallback feedback |
+| NumPy float serialization | Convert to Python native types for JSON |
 
 ### Future Enhancements
 
@@ -589,10 +605,12 @@ brew install openjdk@11  # macOS
 ## 👨‍💻 Author
 
 **Navneet Shukla**  
-Nirmaan AI Intern Case Study Submission  
-Email: shuklanavneet2817@gmail.com
-LinkedIn: https://www.linkedin.com/in/navneet-shukla17/
-GitHub: https://github.com/navneetshukla17?tab=repositories
+Nirmaan AI Intern Case Study Submission
+
+📧 **Email:** [shuklanavneet2817@gmail.com](mailto:shuklanavneet2817@gmail.com)  
+💼 **LinkedIn:** [linkedin.com/in/navneet-shukla17](https://www.linkedin.com/in/navneet-shukla17/)  
+🐙 **GitHub:** [github.com/navneetshukla17](https://github.com/navneetshukla17)  
+🌐 **Live Demo:** [navneet-shukla-communication-scorer-nirmaan-ai.streamlit.app](https://navneet-shukla-communication-scorer-nirmaan-ai.streamlit.app/)
 
 ---
 
@@ -607,8 +625,11 @@ MIT License - feel free to use and modify
 - Nirmaan AI team for the opportunity
 - Groq for free API access
 - HuggingFace for sentence-transformers
+- Streamlit for amazing deployment platform
 - Open-source community
 
 ---
 
-**Built by Navneet Shukla with ❤️ for Nirmaan AI Communication Program.**
+**Built with ❤️ for Nirmaan AI Communication Program**
+
+*Submission Date: November 2024*
