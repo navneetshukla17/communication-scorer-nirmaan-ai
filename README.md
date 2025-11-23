@@ -588,9 +588,11 @@ brew install openjdk@11  # macOS
 
 ## 👨‍💻 Author
 
-**[Your Name]**  
+**Navneet Shukla**  
 Nirmaan AI Intern Case Study Submission  
-[Your Email] | [LinkedIn] | [GitHub]
+Email: shuklanavneet2817@gmail.com
+LinkedIn: https://www.linkedin.com/in/navneet-shukla17/
+GitHub: https://github.com/navneetshukla17?tab=repositories
 
 ---
 
@@ -609,4 +611,4 @@ MIT License - feel free to use and modify
 
 ---
 
-**Built with ❤️ for Nirmaan AI Communication Program**
+**Built by Navneet Shukla with ❤️ for Nirmaan AI Communication Program.**
