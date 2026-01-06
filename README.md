@@ -1,4 +1,4 @@
-# 🎤 AI Communication Skills Scorer
+# 🎤 AI Communication Skills Evaluation System
 
 **Nirmaan AI Intern Case Study Submission**
 
